@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {value : 0} 
 
 const counterSlice = createSlice({
-    name:"aryan",
+    name:"aryan",    // name is used for debugging in redux-devtools
     initialState,
     reducers : {
         increment : (state) => {
