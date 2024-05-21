@@ -5,7 +5,7 @@ import { decrement, increment, incrementByValue, reset,decrementByValue } from "
 
 const Counter = () => {
     const dispatch = useDispatch()
-    const count = useSelector((state) => state.counter.value)
+    const count = useSelector((state) => state.jaffa_counter.value)
     const [amount,setAmount] = useState(0)
     return (
         <>
